@@ -3,43 +3,79 @@
 
 Replace Vue with React (JSX) in Jetstream for Laravel
 
-## How To Use
-Just as it states on the Jetstream website,
->#### Jetstream should only be installed into new Laravel applications.
->#### Attempting to install Jetstream into an existing Laravel application will result in unexpected behavior and issues.
+_Coming Soon_
 
-With that out of the way, let's get into it.
+[//]: # (## How To Use)
 
----
-### 1. Create a new laravel project and enter the directory 
-```bash
-composer create-project laravel/laravel new-app
-cd new-app
-```
----
-### 2. Require and Install Jetstream
-Remember to use the correct command based on your needs
-- Standard (no teams):
-```bash
-composer require laravel/jetstream
-php artisan jetstream:install inertia
-```
+[//]: # (Just as it states on the Jetstream website,)
 
-- with Teams:
-```bash
-php artisan jetstream:install inertia --teams
-```
----
-### 3. Run Jetstream React JSX 
-It's important that you run the corresponding command with the one you run in step 2.
+[//]: # (>#### Jetstream should only be installed into new Laravel applications.)
 
-- Standard (no teams):
-```bash
-npx jetstream-react-jsx@latest install
-```
+[//]: # (>#### Attempting to install Jetstream into an existing Laravel application will result in unexpected behavior and issues.)
 
-- with Teams:
-```bash
-npx jetstream-react-jsx@latest install --teams
-```
----
+[//]: # ()
+[//]: # (With that out of the way, let's get into it.)
+
+[//]: # ()
+[//]: # (---)
+
+[//]: # (### 1. Create a new laravel project and enter the directory )
+
+[//]: # (```bash)
+
+[//]: # (composer create-project laravel/laravel new-app)
+
+[//]: # (cd new-app)
+
+[//]: # (```)
+
+[//]: # (---)
+
+[//]: # (### 2. Require and Install Jetstream)
+
+[//]: # (Remember to use the correct command based on your needs)
+
+[//]: # (- Standard &#40;no teams&#41;:)
+
+[//]: # (```bash)
+
+[//]: # (composer require laravel/jetstream)
+
+[//]: # (php artisan jetstream:install inertia)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (- with Teams:)
+
+[//]: # (```bash)
+
+[//]: # (php artisan jetstream:install inertia --teams)
+
+[//]: # (```)
+
+[//]: # (---)
+
+[//]: # (### 3. Run Jetstream React JSX )
+
+[//]: # (It's important that you run the corresponding command with the one you run in step 2.)
+
+[//]: # ()
+[//]: # (- Standard &#40;no teams&#41;:)
+
+[//]: # (```bash)
+
+[//]: # (npx jetstream-react-jsx@latest install)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (- with Teams:)
+
+[//]: # (```bash)
+
+[//]: # (npx jetstream-react-jsx@latest install --teams)
+
+[//]: # (```)
+
+[//]: # (---)
